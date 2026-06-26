@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>洪韻慈 | 慈慈 的熱帶雨林名片</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="light">
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">�</span>
+        <div>
+          <div class="brand-name">洪韻慈</div>
+          <div class="brand-subtitle">台北醫學大學 保健營養學系 • 楓杏醫學青年服務團</div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="toggle-group">
+          <button id="langToggle" class="pill">EN / 中文</button>
+          <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow" data-key="eyebrow">熱帶雨林醫學營養創意</p>
+          <h1 data-key="headline">我是洪韻慈，雨林中的都市冒險家</h1>
+          <p class="hero-text" data-key="heroText">在台北都市與熱帶叢林之間，融合醫學營養、楓杏服務團精神與設計美學。</p>
+          <div class="hero-actions">
+            <a href="#about" class="btn primary" data-key="ctaPrimary">探索慈慈故事</a>
+            <a href="#contact" class="btn secondary" data-key="ctaSecondary">聯絡我</a>
+          </div>
+          <div class="hero-tags">
+            <span>TMU 營養系</span>
+            <span>楓杏醫青團</span>
+            <span>營養 × 設計</span>
+            <span>雨林氛圍</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="rainforest-glow"></div>
+          <div class="hero-card">
+            <div class="avatar-frame">
+              <svg viewBox="0 0 320 320" aria-hidden="true">
+                <defs>
+                  <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#80c060" />
+                    <stop offset="100%" stop-color="#1f5928" />
+                  </linearGradient>
+                </defs>
+                <circle cx="160" cy="160" r="138" fill="#09110f" />
+                <path d="M70 110 C80 40 240 36 250 110 C278 122 292 178 262 214 C238 246 70 248 70 214 C38 176 48 130 70 110 Z" fill="url(#leafGradient)" opacity="0.85"/>
+                <circle cx="120" cy="160" r="40" fill="#e6b77a" />
+                <circle cx="200" cy="160" r="40" fill="#e6b77a" />
+                <circle cx="160" cy="220" r="70" fill="#d47d4f" />
+                <path d="M100 130 C105 80 130 64 160 64 C190 64 215 80 220 130" stroke="#2b1a0f" stroke-width="15" fill="none" stroke-linecap="round" />
+                <circle cx="110" cy="145" r="12" fill="#020301" />
+                <circle cx="210" cy="145" r="12" fill="#020301" />
+                <path d="M144 180 C150 190 170 190 176 180" stroke="#2b1a0f" stroke-width="10" fill="none" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="hero-data-card">
+              <div class="data-title" data-key="statsTitle">森林實驗數據</div>
+              <div class="data-grid">
+                <div>
+                  <span>9+</span>
+                  <small data-key="yearsExp">年品牌策劃</small>
+                </div>
+                <div>
+                  <span>27</span>
+                  <small data-key="campaigns">次熱帶專案</small>
+                </div>
+                <div>
+                  <span>12</span>
+                  <small data-key="awards">創作獎項</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-head">
+          <p class="section-label" data-key="aboutLabel">關於我</p>
+          <h2 data-key="aboutHeadline">慈慈的叢林傳奇</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p data-key="aboutPara1">我是洪韻慈，綽號慈慈。就讀台北醫學大學保健營養學系，同時身為楓杏醫學青年服務團成員，讓服務與設計在雨林裡交織。</p>
+            <p data-key="aboutPara2">我將營養科學與熱帶叢林視覺融合，讓每個專案散發楓性的溫暖與森林的野性，打造有深度的健康品牌故事。</p>
+            <div class="feature-list">
+              <div>• 熱帶主題品牌視覺</div>
+              <div>• 醫療健康服務設計</div>
+              <div>• 楓杏醫青團實務</div>
+              <div>• 互動式網頁體驗</div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span>08</span>
+              <p data-key="heroCount1">跨領域專案</p>
+            </div>
+            <div class="stat-card">
+              <span>28</span>
+              <p data-key="heroCount2">城市與森林場景</p>
+            </div>
+            <div class="stat-card">
+              <span>100%</span>
+              <p data-key="heroCount3">客戶滿意度</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlights-section">
+        <div class="section-head">
+          <p class="section-label" data-key="highlightsLabel">事蹟</p>
+          <h2 data-key="highlightsHeadline">雨林漫遊的創意印記</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="info-card">
+            <span class="card-icon">🌴</span>
+            <h3 data-key="highlight1Title">奇點展演企劃</h3>
+            <p data-key="highlight1Text">策畫熱帶科技展，以猿猴探索精神為靈感，吸引 5 萬名參觀者。</p>
+          </article>
+          <article class="info-card">
+            <span class="card-icon">🍃</span>
+            <h3 data-key="highlight2Title">品牌重塑設計</h3>
+            <p data-key="highlight2Text">為城市戶外用品打造「叢林生活」品牌系統，完成視覺升級與包裝設計。</p>
+          </article>
+          <article class="info-card">
+            <span class="card-icon">🧠</span>
+            <h3 data-key="highlight3Title">互動式網站</h3>
+            <p data-key="highlight3Text">創造可視化森林地圖，用滑動動畫引導品牌故事，提升轉換率 42%。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-head">
+          <p class="section-label" data-key="contactLabel">聯絡我</p>
+          <h2 data-key="contactHeadline">一起在叢林裡開啟新企劃</h2>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3 data-key="contactRole">設計師 / 創意策展人</h3>
+              <p data-key="contactDesc">我擅長將森林氛圍融入現代品牌語境，並用視覺敘事替客戶打造差異化體驗。</p>
+            </div>
+            <div class="contact-list">
+              <div><strong>Email:</strong> <a href="mailto:ci-ci@rainforestfolio.tw">ci-ci@rainforestfolio.tw</a></div>
+              <div><strong>Phone:</strong> +886 912 345 678</div>
+              <div><strong>Location:</strong> 台北市 / 森林工作室</div>
+            </div>
+          </div>
+          <div class="social-panel">
+            <div class="social-title" data-key="socialTitle">社群連結</div>
+            <div class="social-grid">
+              <a href="#" class="social-pill">Instagram</a>
+              <a href="#" class="social-pill">Behance</a>
+              <a href="#" class="social-pill">LinkedIn</a>
+              <a href="#" class="social-pill">Dribbble</a>
+            </div>
+            <div class="jungle-note" data-key="jungleNote">想像你正在一座新型態創意雨林中散步，一切設計都從自然與科技的融合開始。</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section footer-section">
+        <p data-key="footerText">© 2026 洪韻慈 • 慈慈 Rainforest Studio | 讓你的故事在熱帶叢林裡飛翔。</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
